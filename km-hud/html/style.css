@@ -1,0 +1,33 @@
+#hud {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.money, .job {
+    margin-bottom: 10px;
+}
+
+.money p, .job p {
+    margin: 0;
+    font-size: 14px; /* Tamaño más pequeño */
+    font-weight: 700; /* Texto en negrita */
+}
+
+span {
+    font-size: 16px; /* Valor ligeramente más pequeño */
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
